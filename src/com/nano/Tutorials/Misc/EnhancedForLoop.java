@@ -13,6 +13,7 @@ public class EnhancedForLoop {
 		//yes, this is NOT neccisary, we have done this before, its just a special thing for looping through arrays.
 		for(int x: bucky){
 			total += x;
+			//System.out.println(bucky[x]);
 		}
 		System.out.println(total);
 	}
